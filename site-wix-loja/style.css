@@ -1,0 +1,327 @@
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+li, button {
+    all: unset;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #9c9c9c;
+}
+
+header {
+    background: #f8f8ff;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 127px;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    height: 100%;
+}
+
+.menu-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 721px;
+    height: 36px;
+}
+
+#logo {
+    width: 184px;
+    font-family: Tahoma;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 3px;    
+    text-decoration:underline;
+    color: #405357;
+    cursor: pointer;
+}
+
+.menu-nav {
+    justify-content: space-around !important;
+}
+
+.sacola-compra {
+    width: 75px;
+    cursor: pointer;
+}
+
+.menu-nav>a:hover {
+    color: #405357;
+}
+
+
+.pagina-principal {
+    background-color: #d6d6d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 2433px;
+    margin-top: 127px;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 387px;
+    margin-bottom: 19px;
+}
+
+.area-texto {
+    background-color: #80a6ad;
+    width: 490px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+.titulo-escuro {
+    font-size: 47px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #405357;
+}
+
+.subtitulo {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-color: #405357;
+}
+
+.area-imagem {
+    width: 490px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.lista-slide, .slide  {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.slideshow {
+    width: 100%;
+    height: 100%;
+}
+
+
+.cont-subtitulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 980px;
+    height: 657px;
+    margin-bottom: 19px;
+}
+
+.grid {
+    width: 314px;
+    cursor: pointer;
+}
+
+.img-grande {
+    height: 100%;
+}
+
+.img-media {
+    height: 469px;
+}
+
+#img-pequena {
+    height: 319px;
+}
+
+.tit-claro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #80a6ad;
+    height: 170px;
+    font-size: 47px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #edeff0;
+}
+
+.tit-claro:hover {
+    background-color: #80a6ad70;
+    transition: 0.5s;
+}
+
+.novo-oferta {
+    background-color: #80a6ad;
+    position: relative;
+    height: 46px;
+    padding: 13px 22px;
+    text-transform: uppercase;
+    color: #edeff0;
+    cursor: pointer;
+}
+
+#novo {
+    bottom: 1012px;
+    left: 220px;
+}
+
+#oferta {
+    bottom: 719px;
+    right: 440px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #607d82;
+    width: 100%;
+    height: 210px;
+    color: #d6d6d6;
+}
+
+.rodape {
+    display: inline-flex;
+    justify-content: center;
+    width: 980px;
+    height: 130px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 211px;
+    height: 100%;
+}
+
+.texto-rodape {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+}
+
+.tit-p, .subtit-p {
+    margin: 0 0 3px 0;
+}
+
+.tit-p{
+    font-size: 17px;
+}
+
+.subtit-p {
+    font-size: 15px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 102px;
+    height: 50px;
+}
+
+.redes-sociais>i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.pagamento {
+    width: 166px;
+    height: 100%;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+}
+
+.email {
+    width: 492px;
+    height: 100%;
+    padding-left: 55px;
+}
+
+.campos {
+    display: flex;
+    justify-content: space-between;
+    height: 42px;
+}
+
+.input-email {
+    background-color: #d6d6d6;
+    width: 380px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 3px 3px 3px 21px;
+    border: none;
+    outline: none;
+}
+
+.input-email::placeholder {
+    color: #607d82;
+}
+
+.input-email:hover {
+    border: 2px solid #405357;
+}
+
+.botao-participar {
+    background-color: #405357;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.botao-participar:hover {
+    background-color: #607d82;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.botao-chat {
+    background-color: #405357;
+    position: fixed;
+    text-align: center;
+    bottom: 20px;
+    right: 20px;
+    width: 245px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #d6d6d6;
+    border-radius: 8px;
+    border: 0.5px solid #ffffff20;
+    box-shadow: 0 0px 0px 0px #fff, 0 0px 8px -8px #fff
+}
