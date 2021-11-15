@@ -1,0 +1,483 @@
+/* GERAL */
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+button {
+    all: unset;
+    color: #fff;
+    background-color: #3a54b4;
+    text-align: center;
+    height: 40px;
+    min-width: 116px;
+    padding: 0 17px;
+}
+
+p {
+    line-height: 24px;
+}
+
+.img-redonda {
+    border-radius: 50%;
+}
+
+.subtitulo {
+    font-size: 62px;
+    font-weight: 700;
+    height: 153px;
+}
+
+.nome-cliente, .dados {
+    font-weight: 600;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    color: #3a54b4;
+}
+
+/* HEADER */
+header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 106px;
+    width: 100%;
+    background-color: #fef7ed;
+    z-index: 1;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    width: 320px;
+    height: 40px;
+}
+
+#pata {
+    font-size: 29px;
+}
+
+#dr-lucas {
+    margin: 5px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.menu {
+    width: 500px;
+    height: 40px;
+}
+
+.menu-nav {
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 5px;
+}
+
+.menu-a {
+    text-align: center;
+}
+
+#menu-pagina-inicial {
+    width: 131px;
+}
+
+#menu-sobre {
+    width: 85px;
+}
+
+#menu-servicos {
+    width: 101px;
+}
+
+#menu-blog {
+    width: 75px;
+}
+
+#menu-contato {
+    width: 98px;
+}
+
+.ligar {
+    width: 180px;
+    height: 40px;
+}
+
+#botao-ligar {
+    all: unset;
+    width: 100%;
+    height: 100%;
+    background-color: #3a54b4;
+    color: #fff;
+    text-align: center;
+}
+
+/* SECTION PAGINA INICIAL */
+.pagina-inicial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fef7ed;
+    width: 100%;
+    height: 731px;
+}
+
+.texto-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    width: 430px;
+    height: 478px;
+    margin-left: 110px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 240px;
+    font-size: 150px;
+    font-weight: 700;
+}
+
+.titulo>div {
+    margin: 0;
+    padding: 0;
+    height: 120px;
+}
+
+#pet {
+    position: relative;
+    top:-29px;
+}
+
+#care {
+    position: relative;
+    top: -32px;
+}
+
+#p-inicio {
+    font-size: 31px;
+    width: 100%;
+}
+
+/* SECTION SOBRE */
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.texto-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 332px;
+    width: 385px;
+}
+
+.texto-sobre>p {
+    width: 350px;
+}
+
+/* SECTION SERVICOS */
+.servicos {
+    width: 900px;
+    height: 878px;
+    margin-top: 80px;
+    margin: 0 auto;
+}
+
+.servicos>.subtitulo {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.servicos-figure {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo-figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 530px;
+    width: 250px;
+}
+
+.texto-servicos {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.titulo-figure>p {
+    width: 238px;
+}
+
+/* SECTION BLOG */
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.blog>.subtitulo {
+    text-align: center;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.foto {
+    width: 310px;
+    height: 230px;
+    margin: 10px;    
+    background-size: cover;
+    background-color: hotpink;
+}
+
+.foto-reta {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.img-hover {
+    cursor: pointer;
+    position: relative;
+    bottom: 233px;
+    width: 100%;
+    height: 100%;
+}
+
+.img-hover:hover {
+    background-color: #3a54b480;
+}
+
+.feedback {
+    display: inline-flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 100%;
+}
+
+.fb-cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 293px;
+    height: 265px;
+    margin: 0 5px;
+}
+
+.fb-subtitulo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* SECTION CONTATO */
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3a54b4;
+    color: #fff;
+    width: 100%;
+    height: 680px;
+    padding-top: 70px;
+}
+
+.contato>.subtitulo {
+    margin-bottom: 60px;
+}
+
+.atendimento {
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 800px;
+}
+
+.dados-atendimento>p {
+    margin: 5px 0 50px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.dados-formulario {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#nome, #email {
+    width: 48%;
+    height: 40px;
+}
+
+.assunto-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#assunto {
+    width: 99%;
+    height: 40px;
+}
+
+#mensagem {
+    width: 99%;
+    height: 123px;
+}
+
+.dados-formulario>input, .assunto-formulario>input {
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: #3a54b4;
+    border: none;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 3px 3px 3px 5px;
+}
+
+input:focus {
+    outline: 0;
+    border-bottom: 1px solid blue;
+}
+
+.borda-input {
+    border-bottom: 1px solid #fff;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+}
+
+.enviar>a, #botao-enviar {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+#botao-enviar:hover {
+    background-color: #ffffff50;
+    transition: 0.5s;
+}
+
+#dog-testa {
+    position: relative;
+    bottom: 11px;
+    right: 309px;
+}
+
+.redes-socias {
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 92px;
+    font-size: 25px;
+    width: 183px;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+}
+#botao-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 245px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0.5px solid #ffffff20;
+    box-shadow: 0 0px 0px 0px #fff, 0 0px 8px -8px #fff;
+    z-index: 1;
+}
+
+/* BACKGROUND-IMAGE */
+#foto1 {
+    background-image: url(img/foto1.JPG);
+}
+
+#foto2 {
+    background-image: url(img/foto2.JPG);
+}
+
+#foto3 {
+    background-image: url(img/foto3.JPG);
+}
+
+#foto4 {
+    background-image: url(img/foto4.JPG);
+}
+
+#foto5 {
+    background-image: url(img/foto5.JPG);
+}
+
+#foto6 {
+    background-image: url(img/foto6.JPG);
+}
+
+/* TESTE */
+.coracao-vazio {
+    font-size: 24px;
+    font-weight: 200;
+    color: #ffffff;
+    position: relative;
+    top: 188px;
+    left: 21px;
+}
+
+.coracao-vazio:hover {
+    color: red;
+}
